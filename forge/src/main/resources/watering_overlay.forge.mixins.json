@@ -1,11 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.example.examplemod.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "package": "com.cak.watering_overlay.mixin",
+  "compatibilityLevel": "JAVA_18",
   "mixins": [],
   "client": [
-    "com.cak.watering_overlay.mixin.MixinTitleScreen"
+    "MixinTitleScreen"
   ],
   "server": [],
   "injectors": {

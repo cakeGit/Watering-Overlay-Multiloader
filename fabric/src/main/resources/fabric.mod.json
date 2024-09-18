@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+          "com.cak.watering_overlay.ExampleMod"
         ]
     },
     "mixins": [
