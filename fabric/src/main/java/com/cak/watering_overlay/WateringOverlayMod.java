@@ -1,8 +1,9 @@
 package com.cak.watering_overlay;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 
-public class ExampleMod implements ModInitializer {
+public class WateringOverlayMod implements ModInitializer {
     
     @Override
     public void onInitialize() {
@@ -14,5 +15,6 @@ public class ExampleMod implements ModInitializer {
         // Use Fabric to bootstrap the Common mod.
         Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
+        KeyBindingHelper.registerKeyBinding(WateringControls.TOGGLE_MODE.get());
     }
 }
